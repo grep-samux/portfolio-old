@@ -4,9 +4,9 @@ import { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Toaster } from 'react-hot-toast';
 
-import ActiveSectionContextProvider from '@/context/active-section-context';
-import Header from '@/components/header';
-import Footer from '@/components/footer';
+import ActiveSectionContextProvider from '@/shared/context/active-section-context';
+import Header from '@/app/_components/header';
+import Footer from '@/app/_components/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 

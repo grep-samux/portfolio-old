@@ -1,8 +1,8 @@
-import About from '@/components/about';
-import Contact from '@/components/contact';
-import Intro from '@/components/intro';
-import SectionDivider from '@/components/section-divider';
-import Skills from '@/components/skills';
+import About from '@/app/_components/about';
+import Contact from '@/app/_components/contact';
+import Intro from '@/app/_components/intro';
+import SectionDivider from '@/app/_components/section-divider';
+import Skills from '@/app/_components/skills';
 
 export default function Home() {
   return (

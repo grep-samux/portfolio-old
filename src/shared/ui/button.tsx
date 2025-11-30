@@ -12,13 +12,13 @@ const buttonVariants = cva(
         secondary: 'bg-white borderBlack',
       },
       size: {
-        default: 'px-7 py-3',
+        md: 'px-7 py-3',
         icon: 'p-4',
       },
     },
     defaultVariants: {
       variant: 'primary',
-      size: 'default',
+      size: 'md',
     },
   },
 );

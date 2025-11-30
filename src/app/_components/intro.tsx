@@ -143,7 +143,7 @@ export default function Intro() {
         </Button>
 
         <Button
-          href="https://github.com/SamueleVilla"
+          href="https://github.com/grep-samux"
           variant="secondary"
           size="icon"
           className="text-gray-900 hover:text-gray-950"

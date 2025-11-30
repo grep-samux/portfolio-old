@@ -120,7 +120,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me!{' '}
+          <span>Contact me!</span>
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Button>
 
@@ -129,7 +129,7 @@ export default function Intro() {
           download
           variant="secondary"
         >
-          Download my CV{' '}
+          <span>Download my CV</span>
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </Button>
 
@@ -143,7 +143,7 @@ export default function Intro() {
         </Button>
 
         <Button
-          href="https://github.com/SamueleVilla"
+          href="https://github.com/grep-samux"
           variant="secondary"
           size="icon"
           className="text-gray-900 hover:text-gray-950"
